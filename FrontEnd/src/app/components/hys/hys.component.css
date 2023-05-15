@@ -3,10 +3,10 @@
     margin: auto;
     background: rgb(35,33,35);
     display: flex;
-    justify-content: center;
-    align-items: center;
+    
 
 }
+
 
 .circle-progress{
     width: 300px;
