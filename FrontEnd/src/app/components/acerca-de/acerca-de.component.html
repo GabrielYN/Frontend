@@ -1,17 +1,19 @@
 <div class="row">
-    <div class="col-xs-12 col-sm-2 col-md-2 col-lg-2">
-        <img src="../../../assets/mifoto.jpg" class="img-fluid" id="fotodeperfil">
-    </div>
-    <div Class="ajuste">
-        <div class="col-xs-12 col-sm-2 col-md-2 col-lg-2">
-            <p class="nombre" id="color_verde">{{persona.nombre}} {{persona.apellido}}</p>
-            <p id="letraBlancoOscuro">Full Stack Developer Jr</p>
-        </div>
-        <div class="col-xs-12 col-sm-8 col-md-8 col-lg-8">
-            <span>
-                <h1 id="color_verde">Acerca de mi</h1>
-                <p id="letraBlancoOscuro">Tengo 19 años y soy de Argentina, Buenos Aires. En pandemia no tenía mucho que hacer, por lo que me puse a investigar sobre el mundo de la programación; en ese momento todavía seguía cursando el secundario, pero ya me había decidido que carrera seguir Ingeniería en informática. Dos años despues de haber terminado el secundario y con la carrera en curso, sigo incorporando conocimientos y buscando aprender cada vez más.</p>
-            </span>
-        </div>
-    </div>
+    <button type="button" class="btn btn-primary experiencia-submit" routerLink="/editacercade/1" *ngIf="isLogged">Editar Persona</button>
+<div class="col-xs-12 col-sm-2 col-md-2 col-lg-2">
+    <img src={{persona.img}} alt="Foto" class="img-fluid" id="fotodePerfil">
 </div>
+<div class="col-xs-12 col-sm-2 col-md-2 col-lg-2">
+    <p id="nombre" id="color_verde">{{persona.nombre}} {{persona.apellido}}</p>
+    <p id="info-stack" id="letraBlancoOscuro"class="color-letra">Full Stack Developer Jr</p>
+</div>
+<div class="col-xs-12 col-sm-8 col-md-8 col-lg-8">
+    <span>
+        <h1 id="color_verde">Acerca de Mi</h1>
+        <p id="letraBlancoOscuro">{{persona.descripcion}}</p>
+    </span>
+</div>
+</div>
+
+
+

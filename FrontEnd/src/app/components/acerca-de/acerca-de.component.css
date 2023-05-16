@@ -13,6 +13,15 @@ div{
     margin: auto;
     
 }
+#fotodeperfil{
+    position: absolute;
+    width: 15%;
+    border-radius: 20%;
+    box-shadow:0px 0px 14px 5px rgb(59, 233, 142);
+    left: 2%;
+    top: 600px;
+}
+
 
 
 @media (min-width:576px){
@@ -62,7 +71,17 @@ div{
     
 }
 
-
+.experiencia-submit {
+    border: 1px solid white;
+    background: transparent;
+    color: white;
+    display: block;
+    margin: 1rem auto;
+    min-width: 1px;
+    padding: 0.25rem;
+    transition: 1000ms ;
+    background :ease-in;
+  }
 
 
 
