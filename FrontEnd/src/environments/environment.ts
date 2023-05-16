@@ -8,8 +8,8 @@ export const environment = {
     authDomain: 'frontend-prue.firebaseapp.com',
     messagingSenderId: '442069225634',
   },
-    production: false,
-    //URL: 'https://backend-production-a566.up.railway.app/'
-    URL:'http://localhost:8080/'
+    production: true,
+    URL: 'https://backend-production-a566.up.railway.app/'
+    //URL:'http://localhost:8080/'
 
 };

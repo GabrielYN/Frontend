@@ -9,8 +9,8 @@ import { Observable } from 'rxjs';
   providedIn: 'root'
 })
 export class PersonaService {
-  //URL = 'https://backend-production-a566.up.railway.app/personas/'
-  URL = 'http://localhost:8080/personas/'
+  URL = 'https://backend-production-a566.up.railway.app/personas/'
+  //URL = 'http://localhost:8080/personas/'
   constructor(private httpClient: HttpClient) { }
 
   public lista(): Observable<persona[]>{

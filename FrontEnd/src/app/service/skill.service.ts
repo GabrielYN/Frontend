@@ -7,7 +7,8 @@ import { Skill } from '../model/skill';
   providedIn: 'root'
 })
 export class SkillService {
-URL = 'http://localhost:8080/skill/';
+URL = 'https://backend-production-a566.up.railway.app/skill/'
+//URL = 'http://localhost:8080/skill/';
   constructor(private httpClient:HttpClient) { }
 
   public lista():Observable<Skill[]>{

@@ -8,8 +8,8 @@ import { Observable } from 'rxjs';
 })
 export class SExperienciaService {
 
-  //expURL = 'https://backend-production-a566.up.railway.app/explab/'
-  expURL = 'http://localhost:8080/explab/'
+  expURL = 'https://backend-production-a566.up.railway.app/explab/'
+  //expURL = 'http://localhost:8080/explab/'
 
   constructor(private httpClient: HttpClient) { }
 
